@@ -1,14 +1,30 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
-*.VC.db
-*.opensdf
-*.opendb
+# Ignore Unreal build files
+*.pdb
 *.sdf
-*.sln
 *.suo
-*.xcodeproj
-*.xcworkspace
+*.user
+*.userprefs
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# Ignore Binary and Intermediate folders
+Binaries/*
+Intermediate/*
+Saved/*
+DerivedDataCache/*
+.vscode/*
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore config files
+*.ini
+*.config
+*.log
+
+# Ignore git files
+.git/
